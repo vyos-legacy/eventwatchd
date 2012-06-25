@@ -1,0 +1,13 @@
+Source: eventwatchd
+Section: contrib/utils
+Priority: extra
+Maintainer: Daniil Baturin <daniil@baturin.org>
+Build-Depends: debhelper (>= 5), autotools-dev
+Standards-Version: 3.8.4
+
+Package: eventwatchd
+Architecture: all
+Depends: bash (>= 3.1),
+ libxml-simple-perl
+Description: eventwatchd daemon and related scripts and documentation
+
