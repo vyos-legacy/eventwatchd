@@ -35,10 +35,10 @@ use Data::Dumper;
 use constant 
 {
     # Program settings
-    DEFAULT_CONFIG => "/etc/eventwatchd/eventwatch.conf",
+    DEFAULT_CONFIG => "/etc/eventwatchd/eventwatchd.conf",
     PROGRAM_NAME => "eventwatchd",
     PROGRAM_VERSION => "0.2",
-    PID_FILE => "/var/run/eventwatch.pid",
+    PID_FILE => "/var/run/eventwatchd.pid",
 
     # Program exit codes
     SUCCESS => 0,

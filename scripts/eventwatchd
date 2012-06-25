@@ -76,7 +76,7 @@ case "$1" in
 	fi
 	;;
   status)
-	status_of_proc -p /var/run/eventwatch.pid /usr/bin/eventwatchd eventwatchd.pl && exit 0 || exit $?
+	status_of_proc -p /var/run/eventwatchd.pid /usr/bin/eventwatchd eventwatchd && exit 0 || exit $?
 	;;
 
   *)
