@@ -80,7 +80,7 @@ case "$1" in
 	;;
 
   *)
-	log_action_msg "Usage: /etc/init.d/ssh {start|stop|restart|status}"
+	log_action_msg "Usage: /etc/init.d/eventwatchd {start|stop|restart|status}"
 	exit 1
 esac
 
