@@ -13,9 +13,8 @@
 # General Public License for more details.
 #
 #
-# Author: Daniil Baturin <daniil@baturin.org>
-# Date: June 2012
-# Description: Event monitoring daemon
+# Copyright (C) 2012 Daniil Baturin <daniil@baturin.org>, Jon Andersson
+# Copyright (C) 2014 VyOS Development Group
 #
 # **** End License ****
 #

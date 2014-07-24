@@ -1,7 +1,7 @@
 Source: eventwatchd
 Section: contrib/utils
 Priority: extra
-Maintainer: Daniil Baturin <daniil@baturin.org>
+Maintainer: VyOS Maintainers <maintainers@vyos.net>
 Build-Depends: debhelper (>= 5), autotools-dev
 Standards-Version: 3.8.4
 
