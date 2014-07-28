@@ -395,7 +395,7 @@ sub displayVersion {
 ## Get into daemon mode
 sub daemonize
 {
-     syslog("info", "%s", "Starting in daemon mode");
+     syslog("info", "%s", "Starting in daemon mode") if $debugLevel > 0;
 
      my $pid = fork();
      if (!defined($pid))
