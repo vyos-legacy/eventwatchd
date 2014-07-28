@@ -388,7 +388,8 @@ Options:
 ## Show version and exit
 sub displayVersion {
     print PROGRAM_NAME." event handling daemon version ".PROGRAM_VERSION."\n";
-    print "Copyright 2012 Daniil Baturin\n";
+    print "Copyright 2014 VyOS Development Group\n";
+    print "Distributed under the terms of GNU General Public License\n";
     exit(SUCCESS);
 }
 
