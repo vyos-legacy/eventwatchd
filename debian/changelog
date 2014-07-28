@@ -1,3 +1,11 @@
+eventwatchd (0.2) unstable; urgency=low
+
+  * Fix init script error (stray function call without function definition).
+  * Decrease startup log verbosity.
+  * Update copyrights.
+
+ -- Daniil Baturin <daniil@baturin.org>  Tue, 29 Jul 2014 01:22:12 +0200
+
 eventwatchd (0.1) unstable; urgency=low
 
   * Initial Release.
