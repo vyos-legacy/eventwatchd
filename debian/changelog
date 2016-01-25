@@ -1,3 +1,12 @@
+eventwatchd (0.2+vyos2+current1) unstable; urgency=medium
+
+  [ Thomas Jepp ]
+  * Add missing build depends.
+
+  [ Kim Hagen ]
+
+ -- Kim Hagen <kim.sidney@gmail.com>  Mon, 25 Jan 2016 03:51:45 -0500
+
 eventwatchd (0.2+vyos2+lithium2) unstable; urgency=low
 
   * eventwatchd: add dh_gencontrol to enable development builds
